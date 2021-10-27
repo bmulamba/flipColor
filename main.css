@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container-fluid .header {
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    background-color: rgb(150, 143, 150);
+}
+.content {
+    display: flex;
+    height: 80vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.btn {
+    padding: .5rem 3rem;
+    font-size: 1rem;
+    border: 1px solid rgb(194, 191, 191);
+    box-shadow: 1px 2px 1px 1px gray;
+}
